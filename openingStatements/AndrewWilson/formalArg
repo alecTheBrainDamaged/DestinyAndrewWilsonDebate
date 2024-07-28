@@ -5,8 +5,8 @@ Event = { x | x is an element of a set of events}
 Person = {p | p is an element of the set of People}
 -- end
 
---start
 -- Constants
+--start
 cap6 :: Event
 cap6 = CapitolRiotOnJan6 
 
@@ -15,8 +15,37 @@ donaldAsPresident = DonaldTrumpAsPresident
 
 destinyIn2021 :: People
 destinyIn2021 = DestinyIn2021
-
 -- end
+
+-- Predicates
+-- start
+wasInsurrection :: Event -> Bool 
+
+ideasMeaningNotClear :: Idea -> Bool
+
+supremeCourtHelping :: Idea -> Bool
+
+charge :: Idea -> Person -> Event -> Bool
+
+aqcquit :: Person -> Idea -> Bool   v 
+
+notInsurrection :: Event -> Bool
+
+shouldNotInvestigate :: Event -> Bool
+
+caseIsWeak :: Event -> Bool
+
+isProtest :: Event -> Bool
+
+isRiot :: Event -> Bool
+
+isDemocraticEvent :: Event -> Bool
+
+isRiotFrequently :: Event -> Bool
+
+AgreesWith :: Person -> Bool
+-- end 
+
 --FORMAL ARG
 -- start
 ∀y:Idea ideaNotClear(y)
