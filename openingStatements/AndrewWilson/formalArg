@@ -62,7 +62,21 @@ Unclear how these statements interact with argument.
 AgreesWithMyAssesment(destinyIn2021) 
 ∀x:Event (isDemocraticEvent(x) -> isRiotFrequently(x))
 -- end
- 
+
+----------------- 
+AFTER CLIP 1 PLAYS
+BlmRiots ⊂ Event
+ P = (∀x:Event(isRiot(x) ∧ isPoliticalViolence(x)) -> isPartOfDemocraticProcess(x)))   → (∀b:BlmRiots isMorallyJustified(b))
+
+Q = (  hatesDonaldTrump(destinyNow)  ∧ hatesDonaldTrumpSupporters(destinyNow))  → saysMAGAIsInsurrectionists(Destiny now)
+------------------------------------------------------------------------------------  
+Destiny used to believe P but then Q was True so then he was led to using this reasoning process to deny his past statement P
+Q → ~P 
+Q 
+⸫ ~P
+-------------------------------------------------------
+
+
 
 # Tutorial 
 How to read this in natural language. 
