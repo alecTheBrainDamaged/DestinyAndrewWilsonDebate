@@ -1,0 +1,41 @@
+--- Domain of discourses or Sets
+-- start
+Idea  = {y | y is an idea of an insurrection} 
+Event = { x | x is an element of a set of events}
+Person = {p | p is an element of the set of People}
+-- end
+
+--start
+-- Constants
+cap6 :: Event
+cap6 = CapitolRiotOnJan6 
+
+donaldAsPresident :: People
+donaldAsPresident = DonaldTrumpAsPresident
+
+destinyIn2021 :: People
+destinyIn2021 = DestinyIn2021
+
+-- end
+--FORMAL ARG
+-- start
+∀y:Idea ideaNotClear(y)
+~(∃y:Idea supremeCourtHelping(y) ) 
+~ (∃p:Person ∃y:Idea ( charge(y, p, cap6) ) )
+∃y:Idea acquitted(donaldAsPresident,y)
+⸫ shouldNotInvestigate(cap6)
+⸫ caseIsWeak(cap6)
+⸫ (isProtest(cap6) ∧ isRiot(cap6)) ∧ notInsurrection(cap6)   
+--end
+
+Unclear how these statements interact with argument. 
+-- start
+AgreesWithMyAssesment(destinyIn2021) 
+∀x:Event (isDemocraticEvent(x) -> isRiotFrequently(x))
+-- end
+ 
+
+# Tutorial 
+How to read this in natural language. 
+
+
