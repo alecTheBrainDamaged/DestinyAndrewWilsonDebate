@@ -27,7 +27,7 @@ supremeCourtHelping :: Idea -> Bool
 
 charge :: Idea -> Person -> Event -> Bool
 
-aqcquit :: Person -> Idea -> Bool   v 
+acquitted :: Person -> Idea -> Bool  
 
 notInsurrection :: Event -> Bool
 
